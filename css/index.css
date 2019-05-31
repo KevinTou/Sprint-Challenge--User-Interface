@@ -314,7 +314,7 @@ footer nav a {
   text-decoration: none;
 }
 
-/* About Page */
+/* ------- About Page -------*/
 
 .top-content.about-page {
   padding-bottom: 20px;
@@ -326,4 +326,37 @@ footer nav a {
 
 .top-content.about-page {
   padding-bottom: 20px;
+}
+
+/* ------- About Page - Card Section ------- */
+
+.about-page-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.top-content.about-page-card {
+  width: 47.5%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.card-content {
+  padding-top: 10px;
+}
+
+.card-content button {
+  margin-top: 10px;
+  padding: 10px 25px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.card-content-text {
+  padding: 10px 0;
 }
