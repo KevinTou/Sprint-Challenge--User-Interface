@@ -314,18 +314,16 @@ footer nav a {
   text-decoration: none;
 }
 
-/* ------- About Page -------*/
+/* 
+------- About Page -------
+*/
 
-.top-content.about-page {
+.about-page.top-content {
   padding-bottom: 20px;
 }
 
 .top-content-wrapper {
   padding: 0 20px;
-}
-
-.top-content.about-page {
-  padding-bottom: 20px;
 }
 
 /* ------- About Page - Card Section ------- */
@@ -337,7 +335,7 @@ footer nav a {
   padding: 0 20px;
 }
 
-.top-content.about-page-card {
+.about-page-card.top-content {
   width: 47.5%;
   padding: 0 1%;
   padding-bottom: 20px;
@@ -359,4 +357,11 @@ footer nav a {
 
 .card-content-text {
   padding: 10px 0;
+}
+
+/* About Page - Bottom Section */
+
+.about-page.bottom-content {
+  display: block;
+  margin-bottom: 40px;
 }
