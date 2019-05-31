@@ -187,6 +187,10 @@ header nav a {
   text-decoration: none;
 }
 
+header nav a:hover {
+  border-bottom: 2px solid black;
+}
+
 /* Top Section */
 
 .jumbo-img {
@@ -314,6 +318,10 @@ footer nav a {
   text-decoration: none;
 }
 
+footer nav a:hover {
+  border-bottom: 2px solid white;
+}
+
 /* 
 ------- About Page -------
 */
@@ -326,7 +334,7 @@ footer nav a {
   padding: 0 20px;
 }
 
-/* ------- About Page - Card Section ------- */
+/* About Page - Card Section */
 
 .about-page-card-container {
   display: flex;
@@ -355,6 +363,11 @@ footer nav a {
   font-size: 14px;
 }
 
+.card-content button:hover {
+  background-color: black;
+  color: white;
+}
+
 .card-content-text {
   padding: 10px 0;
 }
@@ -364,4 +377,45 @@ footer nav a {
 .about-page.bottom-content {
   display: block;
   margin-bottom: 40px;
+}
+
+/* 
+------- Contact Page -------
+*/
+
+.contact-page.top-content {
+  padding-bottom: 20px;
+}
+
+.contact-page.form-section {
+  width: 100%;
+}
+
+.contact-page-form-wrapper {
+  width: 370px;
+  margin: 0 auto;
+}
+
+.input-container {
+  margin: 10px 0 40px 0;
+}
+
+.label-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  padding: 10px 25px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.submit-button:hover {
+  background-color: black;
+  color: white;
 }
